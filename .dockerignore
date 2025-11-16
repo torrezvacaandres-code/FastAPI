@@ -1,11 +1,55 @@
-__pycache__/
+# Git
+.git
+.gitignore
+
+# Python
+__pycache__
 *.pyc
 *.pyo
 *.pyd
+.Python
+*.so
+*.egg
+*.egg-info
+dist
+build
+
+# Virtual environments
+.venv
+venv
+env
+ENV
+
+# IDEs
+.vscode
+.idea
+*.swp
+*.swo
+
+# Testing
+.pytest_cache
+.coverage
+htmlcov
+.tox
+
+# Environment
 .env
-.venv/
-.git/
-.mypy_cache/
-.pytest_cache/
-.dist/
-build/
+.env.local
+.env.*.local
+
+# Documentation
+*.md
+!README.md
+
+# Logs
+*.log
+logs
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+docker-compose.yml
+Dockerfile
+.dockerignore
